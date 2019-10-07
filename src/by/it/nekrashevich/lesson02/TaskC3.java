@@ -1,5 +1,8 @@
 package by.it.nekrashevich.lesson02;
 
+import java.math.RoundingMode;
+import java.util.Scanner;
+
 /*
 Ускорение свободного падения на Земле и Марсе таково:
 Марс   3.86
@@ -29,6 +32,16 @@ package by.it.nekrashevich.lesson02;
 
 
 */
-class TaskC3 {
 
+class TaskC3 {
+    public static void main(String[] args) {
+        System.out.println("Введите Ваш вес в кг:");
+        Scanner sc=new Scanner(System.in);
+        int weight = sc.nextInt();
+        System.out.println(getWeight(weight));
+    }
+
+    private static double getWeight(int weight) {
+        return Math.round((weight*3.86/9.81)*100)/100.00;
+    }
 }
