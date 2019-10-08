@@ -21,5 +21,13 @@ Lesson 03. Task A2. Стихотворение
 Для автоматической проверки откройте и запустите класс Testing
 */
 class TaskA2 {
+    public static void main(String[] args) {
+        String a = "На самом деле, мне нравилась только ты,";
+        String b = "Мой идеал и моё мерило.";
+        String c = "Во всех моих женщинах были твои черты,";
+        String d = "И это с ними меня мирило.";
+        System.out.println("Мое любимое стихотворение:");
+        System.out.println(a +"\n" + b + "\n" + c + "\n" + d);
+    }
 
 }
