@@ -35,7 +35,8 @@ class TaskC1 {
     }
 
     public static double convertCelsiumToFahrenheit(int celsium) {
-        return celsium * 9 / 5 + 32;
+        double ft;
+        return ft = (double) celsium * 9 / 5 + 32;
     }
 
 
