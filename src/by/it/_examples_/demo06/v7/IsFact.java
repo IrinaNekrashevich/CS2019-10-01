@@ -1,6 +1,6 @@
 package by.it._examples_.demo06.v7;
 
-class IsFact {
+class  IsFact {
   public static void main(String args[]) {    
     Factor x = new Factor(); 
  
